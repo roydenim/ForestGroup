@@ -1,0 +1,49 @@
+@media (min-width: 992px) {
+	.nav {
+		&__logo {
+			left: 10%;
+		}
+	}
+	.hero {
+		background-image: url("../img/jungle-max.jpg");
+		&__text {
+			h1 {
+				font-size: 3rem;
+			}
+			p {
+				font-size: 1.6rem;
+			}
+		}
+	}
+
+	.aboutus {
+		&__text {
+			font-size: 1.8rem;
+			line-height: 3.5rem;
+		}
+	}
+
+	.hero-img {
+		height: 40vh;
+		background-image: url("../img/girl-max.jpg");
+
+		&__text {
+			font-size: 5rem;
+		}
+	}
+
+	.offert-extra {
+		.one {
+			background-image: url("../img/tourist-max.jpg");
+		}
+		.two {
+			background-image: url("../img/atv-max.jpg");
+		}
+		.three {
+			background-image: url("../img/camping-max.jpg");
+		}
+		.four {
+			background-image: url("../img/campfire-max.jpg");
+		}
+	}
+}

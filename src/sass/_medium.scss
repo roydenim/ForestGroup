@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+	.hamburger {
+		display: none;
+	}
+
+	.nav {
+		&__desktop {
+			display: flex;
+		}
+	}
+
+	.aboutus {
+		&__title {
+			font-size: 2.6rem;
+		}
+		&__text {
+			font-size: 1.6em;
+		}
+	}
+
+	.hero-img {
+		&__text {
+			font-size: 2.4rem;
+		}
+	}
+
+	.offert {
+		&__cards {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		&__heading {
+			font-size: 2rem;
+		}
+	}
+
+	.footer {
+		&__logo {
+			width: 25%;
+		}
+
+		.upper-footer {
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	.offert-extra {
+		&__one {
+			width: 50%;
+		}
+		&__two {
+			width: 50%;
+		}
+		.wrapper {
+			display: flex;
+		}
+
+		.card {
+			margin-left: 1rem;
+		}
+	}
+
+	.contact{
+		&__boxes{
+			display: flex;
+		}
+	
+		&__box-one,
+		&__box-two{
+			width: 50%;
+			margin-bottom: 5rem;
+		}
+	}
+}

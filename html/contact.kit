@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8d20adf40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/css/hamburger.min.css">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body>
+
+    <!-- @include 'nav.kit' -->
+
+    <!-- @include 'header.kit' -->
+
+    <section class="contact">
+            <div class="contact__boxes">
+                <div class="contact__box-one">
+                    <div class="contact__box-info">
+                        <h2 class="contact__box-title">kontakt</h2>
+                        <div class="contact__box-text">
+                            <p>ul. Prosta</p>
+                            <p>00-000 Kraków</p>
+                            <p><i class="fa-solid fa-phone"></i> +48 123-123-123</p>
+                            <p><i class="fa-solid fa-envelope"></i> mail@mail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__box-two">
+                    <form class="contact__form">
+                        <div class="contact__form-box">
+                            <input type="text" id="name" name="Musisz podać Imię i nazwisko" placeholder="Imię i Nazwisko">
+                            <p class="error-text">error</p>
+                        </div>
+                        <div class="contact__form-box">
+                            <input type="mail" id="mail" placeholder="Email">
+                            <p class="error-text">error</p>
+                        </div>
+                        <div class="contact__form-box">
+                            <textarea id="msg" name="Musisz podać treść wiadomości" placeholder="Wiadomość"></textarea>
+                            <p class="error-text">error</p>
+                        </div>
+                        <button type="submit" class="contact__form-btn">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="contact__box-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2152.612873341053!2d19.89091952069156!3d50.088111462279834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1706369011499!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    </section>
+
+    <!-- @include 'footer.kit' -->
+
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
